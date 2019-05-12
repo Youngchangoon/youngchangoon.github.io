@@ -23,8 +23,6 @@ Linked List(연결 리스트)는 각 노드들이 **일자로** 링크(**연결*
 ## 구현할 API ( 간단하게 )
 ---
 
-> 모든 메소드는 자신이 반복했던 횟수를 반환한다.
-
 - int InsertNode(T newData, bool addTail = true)
     - 노드를 맨 앞이나 맨 뒤에 추가한다.
 - int InsertNode(T newData, int index)
