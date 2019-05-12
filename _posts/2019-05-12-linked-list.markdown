@@ -10,7 +10,6 @@ tags: datastructure
 ---
 
 Linked List(연결 리스트)는 각 노드들이 **일자로** 링크(**연결**) 되어 있는 구조를 말합니다. 
-
 각각의 노드는 자신 다음의 노드나 이전 노드를 가르키고 있습니다. 
 
 # Linked List의 종류
@@ -40,8 +39,6 @@ Linked List(연결 리스트)는 각 노드들이 **일자로** 링크(**연결*
 
 ![600px-Single_linked_list](https://user-images.githubusercontent.com/10609257/57582432-b691c600-74ff-11e9-9848-05225163cbc9.png)
 
-
-
 ### 특징
 ---
 
@@ -51,7 +48,6 @@ Linked List(연결 리스트)는 각 노드들이 **일자로** 링크(**연결*
 ---
 
 [코드 보기](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bcb5ea06-d242-4d2a-9653-3568e51d7670/Program.cs?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45F3Z5NWFI%2F20190512%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190512T124238Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICi3nf98domqkB5HCUuiTN6U8oRcoL4BfULRqxArN%2B8NAiEAvSJRwwnsy0XpOMs39XBmSeKoeGYhvwaB70k%2F%2Ffmm1P4q4wMIpP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNzQ1NjcxNDkzNzAiDJQr4QWE1x0Hp1YyQyq3A8FQo38tplQ8Uzl0RES938oYYq7Ia6J1A6TybaFDpbz7Wonr5IGbTwAyOd%2BPDOKbKrQ2KRLaLzT7nHsTjVUgtdPO8P25fc6SCzPtL03cUAJG2eEaNOoVXjndAbFpKCcCNx3squ%2FIY8y4TQE%2FiFTY%2BwDRPV0QKV%2FTr1LYSZOrqq%2FmY2nzrLY6kWw7Xz7dq92Kfo6MP4NMw%2BULkDAW3%2FkP5T0pBIB3soXjC5R6BwiOd%2F%2FIf2vPdw1EsJrrgYdZChAT33QOe9RNGmal8HtSHfxUfbayKa%2Frp%2BWME7mXR9AhDKBuS6YjnQj%2BXoZ0z3bRnR%2B9OtFEfXQF%2BhTFUDizhZIWKFT33luCPSKfEXmzNFJ15B%2FIz%2F5jQlaCvBcu3wqE9wtASLwU%2FknfiAk8xqSRa14Q6RSitUWMmKfP6jS68%2B8FErRsQPIR%2FLxL8z5zpdPlnyj9tic9lWoUk6nFDlBb1%2FguloSsO6nUqJXbCO3Fk46mtbypWxDAkPmNN5VP2yeYg2z6o0xPNuMbCf8FsNIVpbtP0iFle7iol5HU055%2F9op1D9r9o41oNlzw2Vj7vS8hQFjiSKcCZ2klCZcwrvHf5gU6tAHddRvgyGi8h%2FkGjoBkHvlkpUXKq1PNUvbnqEimxSVZX3%2FLrUKJaGbpVsNc%2F%2FWRp6Wgt23pTFVNEuzm5y8CYGkFj0FIPulYLkxDUiGOcdNSpVzPPlYX7OnPsdVfSKIsQeUtDvzVHYaNwZPZ9dBEryZ7U4%2FCBb%2FY71SHs3lmtfJgtc8FDMsstG757vnoJSmWwjIcp0GzJ88S4rOVBYCvLHmBTbtZuO%2BEthkSxKFzJzd5FENGLsI%3D&X-Amz-Signature=4f411b98e05545b31951ba547c4bc21000e9272e39fcf932a4b4bbede25a420e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Program.cs%22)
-
 
 ## 이중 연결 리스트
 ---
