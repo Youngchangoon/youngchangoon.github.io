@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "스택 (Stack)의 종류와 특징"
+subtitle:   "스택 (Stack)의 종류와 특징"
+categories: devlog
+tags: datastructure
+comments: true
+---
+
+## Stack
+
+---
+
+![600px-Data_stack svg](https://user-images.githubusercontent.com/10609257/57656464-58560780-7613-11e9-8f99-0089bde57d5f.png)
+
+스택은 LIFO(Last In First Out) 구조를 가지고 있는 선형 자료구조 입니다.
+
+**LIFO**는 나중에 넣은 객체가 먼저 나온다라는 뜻입니다.
+
+## 구현 API
+
+---
+
+- Top()
+  - 가장 마지막에 들어온 데이터를 반환
+- Pop()
+  - 가장 마지막에 들어온 데이터를 반환하고, 스택에서 삭제
+- Push()
+  - Top자리에 새로운 데이터 삽입
+- IsEmpty()
+  - 스택이 비었는지 확인
+
+## 배열을 이용한 스택 구현
+
+### 특징
+
+---
+
+- 스택의 용량이 초기화때 정해집니다.
+
+### 코드
+
+---
+
+[코드 보기](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc9baaba-ec5f-4a71-adbd-94f90ce827ef/Program.cs?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45C527IKSS%2F20190513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190513T214223Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDbl%2BxjlhvbfuVVoRHfDZaRVOzVcVquS9Zf6yWYpKK8ZgIhAK%2BAejB66JRDkGwl%2FcNfOA1U7PnF03UzhfF%2FRXfIo5CtKuMDCMT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMjc0NTY3MTQ5MzcwIgyBNx0Nn8nY4TbZdTgqtwNgb0Z5gEiM4vlk6xs8wMphXxFl1WJNDyv2Cq57XyjZQsUXeq0FDtPjfMwVtGOl%2Bhk56f3aaoBGX2pf53p64AzFe8wVxrJcXTvhxNEf4HS8%2BB15VyzEgFT5jKelN3u8MQQnMAxn07i6msQvFr0mouPOzD1Qh22b4NCqFvNtgF9%2Fgp4DCHot9v9EAms1J0BGokFPyHPM%2FbQURCUtqQAXo%2FxEhPFXjd15J4HkO5ckw00cJwLlqQZKIVmEW2GVgyceuAJwOJybM%2FYJBL0tHyJb6ajSxMQmnTYhp1OdUygYmYjcRLTXBE6yfj7oN%2F5GzZuDRTekYmX9vPO%2FZX6DivzPTb2ZEIRiHjqI77sRBQajGpCP9K%2FwAtSttkBR3W0Qxz9eWQhg1ZF0AV%2Fiw%2Fu1R5gj9fOy%2BPTp8%2BOM4L32EfjnH6SmpHYqnZPlM9I2j50A0JJ%2F4u90qN9%2Fv514PAdTKPqCWnWgvqsTkr3yLiHcoYw2KH6u8oFq80spLJTbhTpRSzZ%2FKT%2Fwrvxi3bXN9G9YGzlfxQ3anbAaYWV5I6WBBzT9MTKu8Ul%2BQKxYVWJeKLf6zHQMy7clensGbq1NMJWC5%2BYFOrMBnqt9dtqlb%2FxWc8oceBWI12eoC3zNyTksCHNiFBQnnV13Xf7vANwgig3JR32nHCysUVesyPM4KtYlIxwBNdbFxq8Y7ypCqON%2FSu%2FU%2Bk0FX0uHpln8Ip2KTdXdCcfgrTOzr6NvlynkRdTQ3Yma8R8Hgje84Rfobo5qhwEPb2nVAE7I%2BmqthpSFBQQ59hmWfdqCafalRipYPY81E4pb86QiWKccifsfdeCaXqSuXTgbCK4TtU0%3D&X-Amz-Signature=c89120ab6b1dd2f204e954772013004ab6bb7c62cb2988b0440792140e2e3e5a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Program.cs%22)
+
+## 단일 연결 리스트를 이용한 스택 구현
+
+### 특징
+
+---
+
+- 스택의 용량이 동적으로 바뀝니다.
+
+### 코드
+
+---
+
+[코드 보기](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0bb7cb4b-2453-4840-be0d-135722d2b4ce/Program.cs?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45LZFN2VCZ%2F20190513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190513T214248Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDPBFLnlIaoOVN6E1oPhKaDTp3JGZdy%2BlSoeFSZ4v%2FAzQIhALHx%2FuE6Ay%2BPOIEHqEG7I5Xe0UmJpOrIXqXJbJ8CBczAKuMDCMT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMjc0NTY3MTQ5MzcwIgwP32h6Cdsj2A17Q7gqtwPIib%2FXGyYF%2BjyL03fwWC9ztTx0FQA5XXzgoXSmtvkAfskYEWG%2FCLeaXQwcd4Nnl2sChoWw%2F%2FQUtQQh%2FGrxxWCt%2BGzhqHKoL8EB%2FTZ7db%2F1hbxHQR5TY9sOZVloeE0ySTv2%2F4Nw86l6AjHIdD33mbBxSZiinIcDGx0Yk2JcwQkjxH0KxtfQ5RUW%2FL6hNuvCQTqwA4aLY2s7Woed9exfm1wAQQXrbLWJiSnfwcxEDZa0OiWuOVY0UNlU8vbYXf2bhHCJn6g160zMBoqzBKqDxlNBooVb9AdtMtgEIPpEMF7ND8PoXWDr%2Bb1rkUfYBOgYqxUZxHZtc6vgefE5f6iDey4wW0OiCpBuw0W5nbch5EBesyn8qvttivT2wM4QZQcsizXx39ln9aPTtGhVXU5cr2plzlwU9yaClVUucKJwabq4WWrY7bAAlNcj%2FqBAWyn5e73%2Bq28ElZ4mw8yUcuOw0Q9JtOIMcYcCdKYof%2BJmqr806vm13oQTpHFWXG9HVluYcz9TL76KoQhPsCCP1xeO%2FtP4jp7Uy5bGFkrzPDwGtJX%2B8alUceInoBK4zji%2FoTq3whTwnJUlhfCWMLiH5%2BYFOrMBnBswzP4DTD6tPDATICoO01GI%2F5zPBob0sjmjgk5NDMYacVQIJMUrTtbRe0NUI2aguqtSytIYjwA5tbW4qgxCi2xc4x%2B84NAnYOyxyMD6JoCRSriOhh8y1rytxVyTeyaAY2zuykCI3QH4Gb0ISZN5jVrdPE4yeBBiHWu30i8%2FdHJizxU7q1VOKI3qBe5FSI2wHR5s8RHsgM0Tjh0zE3ZI1xihExNH1nLZKDDnx1LxrdzN6Dk%3D&X-Amz-Signature=67059a1dfd56de3aa73653588f8538f503567aa4c3b7ea930909c61a8d2ce5c0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Program.cs%22)
